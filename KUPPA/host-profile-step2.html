@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KUPPA</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- build:css css/vendor.min.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../node_modules/semantic-ui-transition/transition.min.css">
+    <link rel="stylesheet" href="../node_modules/semantic-ui-dropdown/dropdown.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css">
+    <!-- endbuild -->
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+<div>
+    <!--Begin header-->
+<header class="header">
+    <div class="header-head">
+        <div class="container d-flex flex-wrap justify-content-end align-items-center header-log">
+            <a class="callModalLogin" href="javascript:void(0)">
+                <div class="header__list callModalLogin">
+                    <img class="mb-1 mr-1" src="images/ic-lock.svg" alt="">
+                    <span>LOGIN</span>
+                </div>
+            </a>
+            <a class="callModalRegister" href="javascript:void(0)">
+                <div class="header__list ">
+                    <img class="mb-1 mr-1" src="images/ic-user.svg" alt="">
+                    <span>SIGN UP</span>
+                </div>
+            </a>
+            <div class="header__list d-flex flex-wrap mb-3">
+                <div class="header__social">
+                    <a href=""><img src="images/ic-facebook.svg" alt=""></a>
+                </div>
+                <div class="header__social">
+                    <a href=""><img src="images/ic-twitter.svg" alt=""></a>
+                </div>
+                <div class="header__social">
+                    <a href=""><img src="images/ic-linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="check-hang">
+        <div class="d-none d-lg-block header-menu">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+                <a class="d-inline-block ml-0" href="#">
+                    <img class="header-menu__logo" src="images/ic-logo.png" alt="">
+                    <img class="header-menu__logo-scroll" src="images/ic-logo-scroll.png" alt="">
+                </a>
+                <div class="d-flex flex-wrap align-items-center">
+                    <nav class="d-flex flex-wrap">
+                        <a class="text-uppercase header-menu__link" href="become-a-host.html">BECOME A HOST</a>
+                        <a class="text-uppercase header-menu__link" href="how-it-works.html">HOW IT WORKS?</a>
+                        <a class="text-uppercase header-menu__link" href="">HELP</a>
+                        <a class="text-uppercase header-menu__link" href="">ABOUT US</a>
+                        <a class="text-uppercase header-menu__link" href="">FREE MEAT</a>
+                        <a class="text-uppercase header-menu__link" href="">GIVE A GIFT</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End header-->
+
+<!--Begin header mobile-->
+<div class="check-hang">
+<section class="d-lg-none header-mobile">
+    <div class="d-flex justify-content-between align-items-center w-100 pr-2 pl-3 bg-white">
+        <a class="navbar-brand" href="#">
+            <img class="header-mobile__logo" src="images/ic-logo.png" alt="">
+            <img class="header-menu__logo-scroll" src="images/ic-logo-scroll.png" alt="">
+        </a>
+        <button id="callHeaderMobileMenu" class="d-flex justify-content-center align-items-center border-0 bg-white">
+            <img src="images/ic-menu.svg" alt="">
+        </button>
+    </div>
+    <div id="headerMobileMenu" class="header-mobile-menu">
+        <nav class="ml-4 header-mobile-menu__wrap">
+            <p><a class="text-uppercase header-menu__link" href="">BECOME A HOST</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">HOW IT WORKS?</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">HELP</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">ABOUT US</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">FREE MEAT</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">GIVE A GIFT</a></p>
+        </nav>
+    </div>
+</section>
+</div>
+<!--End  header mobile-->
+    <main class="host-profile-step">
+        <div class="host-profile-step__nav position-relative pb-2">
+            <ul class="nav">
+                <div class="container">
+                    <div class="row text-center">
+                        <li class="nav-item col-6">
+                            <a class="nav-link py-4" href="#">01 - RESERVATION</a>
+                        </li>
+                        <li class="nav-item col-6">
+                            <a class="nav-link active py-4" href="#">02 - BILLING INFORMATION</a>
+                            <div class="d-flex justify-content-center">
+                                <div style="background:#4fd08d; width:20px; height:20px; transform:rotate(45deg);bottom:-10px;" class="position-absolute"></div>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="host-profile-head">
+    <div class="container">
+        <div class="text-center my-4">
+            <img src="images/host-profile.png" alt="">
+            <p class="mt-2 mb-0">You are reserving an experience with</p>
+            <h4 class="mb-1">Nguyen Hong</h4>
+            <h3 class="text-uppercase">Ha Noi city, Viet Nam</h3>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="row pt-2 mb-5">
+                <div class="col-lg-6 pl-0 pr-0 mb-3 pr-md-0 pr-3">
+                    <p class="col-12 host-profile-step__title">Choose payment services</p>
+                    <ul class="nav nav-pills mb-3 pl-2 ml-1" id="pills-tab" role="tablist">
+                        <li class="col-4 nav-item px-1 text-center">
+                            <a class="nav-link m-btn2 m-btn-green-white active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Credit Card</a>
+                        </li>
+                        <li class="col-4 nav-item px-1 text-center">
+                            <a class="nav-link m-btn2 m-btn-green-white " id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">ATM</a>
+                        </li>
+                        <li class="col-4 nav-item px-1 text-center">
+                            <a class="nav-link m-btn2 m-btn-green-white" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Transfer</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="host-profile-step__wrap ml-3 mr-1">
+                                <a href=""><img src="images/ic-card1.png" height="25px" alt=""></a>
+                                <a href=""><img src="images/ic-card2.jpg" height="25px" alt=""></a>
+                                <a href=""><img src="images/ic-card3.png" height="25px" alt=""></a>
+                                <a href=""><img src="images/ic-card4.png" height="25px" alt=""></a>
+                                <p class="host-profile-step__text1 mt-3 mb-0">Secure payment via Onepay portal, free transaction.</p>
+                                <p class="host-profile-step__text1 ">Get instant confirmation via email and SMS.</p>
+                                <div class="text-center pt-1">
+                                    <button class="m-btn2 m-btn-blue py-2 px-5">Payment</button>
+                                    <p class="host-profile-step__text2 mt-4">By clicking the Make a payment button, you agree to our <span>Terms and Conditions.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="host-profile-step__wrap ml-3 mr-1">
+                                <a href=""><img src="images/bank1.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank2.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank3.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank4.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank5.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank6.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank7.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank8.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank9.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank10.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank11.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank12.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank13.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank14.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank15.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank16.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank17.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank18.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank19.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank20.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank21.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank22.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank23.png" height="34px" alt=""></a>
+                                <a href=""><img src="images/bank24.png" height="34px" alt=""></a>
+                                <p class="host-profile-step__text1 mt-3 mb-0">Secure payment via Onepay portal, free transaction.</p>
+                                <p class="host-profile-step__text1 ">Get instant confirmation via email and SMS.</p>
+                                <div class="text-center pt-2">
+                                    <button class="m-btn2 m-btn-blue py-2 px-5">Payment</button>
+                                    <p class="host-profile-step__text2 mt-4">By clicking the Make a payment button, you agree to our <span>Terms and Conditions.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="host-profile-step__wrap ml-3 mr-1 text-center">
+                                <div class="host-profile-step__text3 pt-2">Payment instructions will be sent to the booking email.</div>
+                                <div class="host-profile-step__text3"> Please make a payment before <span>20:07:15 Saturday, 09/12/2017.</span></div>
+                                <div class="host-profile-step__text3">Past the above payment period, the booking will be automatically canceled.</div>
+                                <div class="text-center pt-4">
+                                    <button class="m-btn2 m-btn-blue py-2 px-5">Finish</button>
+                                    <p class="host-profile-step__text2 mt-4">By clicking the Make a payment button, you agree to our <span>Terms and Conditions.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pr-sm-0"><div class="host-receipt px-4 py-3">
+    <p class="host-receipt__title mb-2"><span class="pr-1">Meal on:</span>Thu, 28 Sep 2017 at 11:00am</p>
+    <p class="mb-1">Cost Breakdown</p>
+    <div class="host-receipt__body p-3">
+        <p class="my-0">Meal</p>
+        <div class="row">
+            <div class="col-md-3 col-sm-0"></div>
+            <div class="col-md-9 col-sm-12">
+                <div class="d-flex justify-content-start">
+                    <div>Free x 1 infant</div>
+                    <div class="ml-auto">Free</div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div>$11.00 x 1 child</div>
+                    <div class="ml-auto">$11.00</div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div>$22.00 x 2 adults</div>
+                    <div class="ml-auto">$44.0</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-start">
+            <div>Subtotal</div>
+            <div class="ml-auto">$55.00</div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-start host-receipt__price">
+            <div>TOTAL</div>
+            <div class="ml-auto">$55.00</div>
+        </div>
+    </div>
+    <p class="host-receipt__footer text-right mt-2 mb-0">Please read Traveling Spoon's <a href="">cancellation policy here</a></p>
+</div></div>
+            </div>
+        </div>
+    </main>
+    <!-- Begin footer -->
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 pr-0 mb-4 mb-md-0 footer__info">
+                    <h4 class="">COMPANY INFO</h4>
+                    <ul>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt=""> About</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Founders</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">How it works</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Safety</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Press</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Careers</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Testmonials</a>
+                        </li>
+                        <li>
+                             <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-4 mb-md-0">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 pr-0">
+                            <h4>HELP</h4>
+                            <ul>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Traveler FAQs</a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Host FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 pl-lg-0 pr-0">
+                            <h4>JOIN US</h4>
+                            <ul>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Become a Host</a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Become an Ambassador</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 pl-lg-4 mt-md-4 mt-lg-0 footer__subscribe">
+                    <form action="">
+                        <h4>SUBSCRIBE TO OUR NEWSLETTER!</h4>
+                        <input class="col-lg-11 col-md-10" type="email" placeholder="Enter Email Address">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <h5>&#169; Copyright information 2017, All Right Of Reserve</h5>
+    </div>
+</footer>
+<!-- End footer -->
+</div>
+
+<!-- // -->
+<!-- Begin modal login -->
+<div id="modalLogin" class="modal fade modal-lrf">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-center my-3 row">
+                <h5 class="modal-title ml-4 col-9">Sign in</h5>
+                <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </h5>
+            </div>
+            <div class="modal-body py-0">
+                <form class="p-sm-2">
+                    <div class="justify-content-between align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center w-100 mr-1 m-btn m-btn-white modal-lrf__fb">
+                            <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" width="16" height="16">
+                                <path fill="#FFFFFF" d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2v-2.05c0-2.164,1.212-3.684,3.766-3.684
+                                    l1.803,0.002v2.605h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"
+                                />
+                            </svg>
+                            <span class="ml-2">Sign in with Facebook</span>
+                        </a>
+                    </div>
+                    <p class="my-3 modal-lrf__text text-center">OR</p>
+                    <div class="form-group">
+                        <input class="form-control" type="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                    <div class="mb-3 text-right">
+                        <a class="modal-lrf__call" href="javascript:void(0)">Forgot your password?</a>
+                    </div>
+                    <div class="mb-0 text-center">
+                        <button type="submit" class="w-100 m-btn m-btn-green">Log in</button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center p-3 pb-4">
+                    <span class="modal-lrf__text">Need to create account?</span>
+                    <a id="callRegiterFromLogin" class="modal-lrf__call ml-1" href="javascript:void(0)">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal login -->
+<!-- // -->
+<!-- Begin modal login -->
+<div id="modalRegister" class="modal fade modal-lrf">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-center my-3 row">
+                <h5 class="modal-title ml-4 col-9">Sign up</h5>
+                <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </h5>
+            </div>
+            <div class="modal-body py-0">
+                <form class="p-sm-2">
+                    <div class="justify-content-between align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center w-100 mr-1 m-btn m-btn-white modal-lrf__fb">
+                            <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" width="16" height="16">
+                                <path fill="#FFFFFF" d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2v-2.05c0-2.164,1.212-3.684,3.766-3.684
+                                    l1.803,0.002v2.605h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"
+                                />
+                            </svg>
+                            <span class="ml-2">Sign up with Facebook</span>
+                        </a>
+                    </div>
+                    <p class="my-3 modal-lrf__text text-center">OR</p>
+                    <div class="form-group">
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control">
+                            <input type="hidden" name="">
+                            <div class="text">Mr.</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>Mr.</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>Mrs.</span>
+                                </div>
+                                <div class="item" data-value="2">
+                                    <span>Ms.</span>
+                                </div>
+                                <div class="item" data-value="3">
+                                    <span>Miss.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="firstname" placeholder="First name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="lastname" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Email (for all booking communication)">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                    <div class="form-group d-flex mt-4">
+                        <span class="hl-item__text1 mt-2 mr-md-3 mr-2">Birthday</span>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25 mr-2">
+                            <input type="hidden" name="">
+                            <div class="pl-0 default text">Month</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>03 AM</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>04 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25 mr-2">
+                            <input type="hidden" name="">
+                            <div class=" default text">Day</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>03 AM</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>04 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25">
+                            <input type="hidden" name="">
+                            <div class="default text">Year</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>00</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>01</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="row align-items-center filter-item">
+                        <div class="col-1 mr-2 mt-0">
+                            <input class="d-none filter-item__checkbox" type="checkbox">
+                            <div class="filter-item__status"></div>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <span class="filter-item__text1">By signing up you agree to Kuppa.net
+                            <a class="modal-lrf__call" href="javascript:void(0)">Terms of Use</a> &amp;
+                            <a class="modal-lrf__call" href="javascript:void(0)">Privacy Policy</a>
+                            </span>
+                        </div>
+                    </label>
+                    <div class="mb-0 text-center">
+                        <button type="submit" class="w-100 m-btn m-btn-green">Log in</button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center p-3 pb-4">
+                    <span class="modal-lrf__text">Already have an ccount?</span>
+                    <a id="callLoginFromRegiter" class="modal-lrf__call ml-1" href="javascript:void(0)">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal login -->
+<!-- // -->
+<!-- build:js js/vendor.min.js -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../node_modules/semantic-ui-transition/transition.min.js"></script>
+<script src="../node_modules/semantic-ui-dropdown/dropdown.min.js"></script>
+<script src="../node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<!-- endbuild -->
+<!-- build:js js/main.min.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>
+

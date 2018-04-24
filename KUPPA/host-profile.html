@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KUPPA</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- build:css css/vendor.min.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../node_modules/semantic-ui-transition/transition.min.css">
+    <link rel="stylesheet" href="../node_modules/semantic-ui-dropdown/dropdown.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css">
+    <!-- endbuild -->
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+<div>
+    <!--Begin header-->
+<header class="header">
+    <div class="header-head">
+        <div class="container d-flex flex-wrap justify-content-end align-items-center header-log">
+            <a class="callModalLogin" href="javascript:void(0)">
+                <div class="header__list callModalLogin">
+                    <img class="mb-1 mr-1" src="images/ic-lock.svg" alt="">
+                    <span>LOGIN</span>
+                </div>
+            </a>
+            <a class="callModalRegister" href="javascript:void(0)">
+                <div class="header__list ">
+                    <img class="mb-1 mr-1" src="images/ic-user.svg" alt="">
+                    <span>SIGN UP</span>
+                </div>
+            </a>
+            <div class="header__list d-flex flex-wrap mb-3">
+                <div class="header__social">
+                    <a href=""><img src="images/ic-facebook.svg" alt=""></a>
+                </div>
+                <div class="header__social">
+                    <a href=""><img src="images/ic-twitter.svg" alt=""></a>
+                </div>
+                <div class="header__social">
+                    <a href=""><img src="images/ic-linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="check-hang">
+        <div class="d-none d-lg-block header-menu">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+                <a class="d-inline-block ml-0" href="#">
+                    <img class="header-menu__logo" src="images/ic-logo.png" alt="">
+                    <img class="header-menu__logo-scroll" src="images/ic-logo-scroll.png" alt="">
+                </a>
+                <div class="d-flex flex-wrap align-items-center">
+                    <nav class="d-flex flex-wrap">
+                        <a class="text-uppercase header-menu__link" href="become-a-host.html">BECOME A HOST</a>
+                        <a class="text-uppercase header-menu__link" href="how-it-works.html">HOW IT WORKS?</a>
+                        <a class="text-uppercase header-menu__link" href="">HELP</a>
+                        <a class="text-uppercase header-menu__link" href="">ABOUT US</a>
+                        <a class="text-uppercase header-menu__link" href="">FREE MEAT</a>
+                        <a class="text-uppercase header-menu__link" href="">GIVE A GIFT</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End header-->
+
+<!--Begin header mobile-->
+<div class="check-hang">
+<section class="d-lg-none header-mobile">
+    <div class="d-flex justify-content-between align-items-center w-100 pr-2 pl-3 bg-white">
+        <a class="navbar-brand" href="#">
+            <img class="header-mobile__logo" src="images/ic-logo.png" alt="">
+            <img class="header-menu__logo-scroll" src="images/ic-logo-scroll.png" alt="">
+        </a>
+        <button id="callHeaderMobileMenu" class="d-flex justify-content-center align-items-center border-0 bg-white">
+            <img src="images/ic-menu.svg" alt="">
+        </button>
+    </div>
+    <div id="headerMobileMenu" class="header-mobile-menu">
+        <nav class="ml-4 header-mobile-menu__wrap">
+            <p><a class="text-uppercase header-menu__link" href="">BECOME A HOST</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">HOW IT WORKS?</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">HELP</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">ABOUT US</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">FREE MEAT</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">GIVE A GIFT</a></p>
+        </nav>
+    </div>
+</section>
+</div>
+<!--End  header mobile-->
+    <main>
+        <!--Begin Slide Banner-->
+        <div id="carouselControls1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner position-relative">
+                <div class="carousel-item active">
+                    <section class="">
+                        <div style="background:url(images/img_8466.jpg) center center no-repeat fixed; background-size: cover; height: 425px;">
+                            <div class="hl-item__bg-effect h-100">
+                                <div class="d-flex align-items-end flex-column h-100" style="color: white;">
+                                    <div class="mt-auto p-2">
+                                        <p class="hl-item__title7-24 m-0">Host: <span style="color: #4ED08D;">Nguyen Hong</span></p>
+                                        <p class="hl-item__text4">Ha Noi, Viet Nam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="carousel-item">
+                    <section class="">
+                        <div style="background:url(images/img_8466.jpg) center center no-repeat fixed; background-size: cover; height: 425px;">
+                            <div class="hl-item__bg-effect h-100">
+                                <div class="d-flex align-items-end flex-column h-100" style="color: white;">
+                                    <div class="mt-auto p-2">
+                                        <p class="hl-item__title7-24 m-0">Host: <span style="color: #4ED08D;">Nguyen Hong</span></p>
+                                        <p class="hl-item__text4">Ha Noi, Viet Nam</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="num position-absolute text-center w-100 hl-item__text1" style="color: white; bottom: 40px;"></div>
+                <div class="d-flex justify-content-center position-absolute w-100" style="bottom: 0;">
+                    <a class="" href="#carouselControls1" data-slide="prev">
+                        <img class="" src="images/host-detail_sl.png" alt="">
+                    </a>
+                    <a class="" href="#carouselControls1" data-slide="next">
+                        <img class="" src="images/host-detail_sr.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--End Slide Banner-->
+
+        <div class="position-relative">
+            <!--Begin Menu-->
+            <div class="container py-5">
+                <label class="hl-item__title2 w-100 text-center">Donec convallis quam sit amet aliquet</label>
+                <ul class="nav justify-content-center pb-5">
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_house.png">
+                        <a class="nav-link menu__s-1" href="#">House</a>
+                    </li>
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_homecook.png">
+                        <a class="nav-link menu__s-1" href="#">Home cook</a>
+                    </li>
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_pets.png">
+                        <a class="nav-link menu__s-1" href="#">Pets</a>
+                    </li>
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_vegetarian.png">
+                        <a class="nav-link menu__s-1" href="#">Vegetarian</a>
+                    </li>
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_alcohol.png">
+                        <a class="nav-link menu__s-1" href="#">Alcohol</a>
+                    </li>
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_cooking.png">
+                        <a class="nav-link menu__s-1" href="#">Cooking experience</a>
+                    </li>
+                    <li class="nav-item text-center menu__w-150 menu-reponsive__w-190 mt-3">
+                        <img src="images/host-details_marketvisit.png">
+                        <a class="nav-link menu__s-1" href="#">Maket visit</a>
+                    </li>
+                </ul>
+            </div>
+            <!--End Menu-->
+
+            <!--Begin Infor hoster-->
+            <div class="position-absolute d-flex justify-content-center w-100" style="bottom: 455px;">
+                <div style="background: url(images/bah-03.jpg) center center / cover; height: 130px; width: 130px;"></div>
+            </div>
+            <div class="pt-4" style="height: 515px; background-color: #f7f7f7;">
+                <div class="container pt-5">
+                    <label class="hl-item__title2 w-100 text-center">Nguyen Hong</label>
+                    <label class="hl-item__text3 w-100 text-center" href="" style="color: #a9a9a9;"><span class="hl-item__title9-25 pr-3" style="color: #4ED08D;">$30 - $88</span>USD per person</label>
+                    <p class="hl-item__text3 text-center px-5 mt-4">Aliquam lacinia sem pharetra, ultrices sem in, porttitor diam. Maecenas a sodales nunc, sed mattis sem. Aenean enim libero, rutrum in porttitor eget, posuere id arcu. Nulla aliquam placerat neque, sed congue arcu elementum egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ut libero eu velit finibus aliquet in a quam. Praesent rutrum velit quis dui finibus, eget laoreet ex rutrum. Donec id hendrerit purus. In lobortis urna ac velit feugiat, sed fermentum lacus lobortis. Duis consectetur, lacus quis consectetur vestibulum, justo leo egestas nisi, eu hendrerit arcu elit id sem. Maecenas lobortis mauris quis tellus malesuada, semper condimentum ante elementum. Aliquam convallis felis a est dictum, et vehicula enim finibus. Curabitur accumsan in ex at dignissim.
+                    </p>
+                </div>
+            </div>
+            <!--End Infor hoster-->
+            <div class="position-absolute w-100" style="height: 85px; background-color: #f7f7f7; bottom: -84px; z-index: 2;"></div>
+        </div>
+
+        <section class="position-relative container p-5 mt-4" style="z-index: 3; background-color: white;">
+            <!--Begin What to expect-->
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <label class="hl-item__title2">What to expect</label>
+                    <div class="anyClass pr-4" style="height: 570px;">
+                        <p class="hl-item__text3">
+                            <b>In-home meal: </b>(1-5 guests) Your meal might include a variety of typical street food dishes such as bun ca (turmeric-seasoned fish served with fresh vermicelli in broth, scattered with bunches of fresh herbs), xoi xeo (sticky rice with ground beans and flavorful fried shallots), fresh seasonal salads with green or ripe mango, pomelo, or avocado, and for dessert her delightful nep cam (purple sticky rice on yogurt). The menu will vary based on the season. <br>
+                            As an alternative to her street food style menu Lan Anh can 
+                            serve a more traditional family-style meal which would include a vegetable soup, a fish or meat main dish and steamed rice. Please let her know your preference when you make your reservation. 
+                        </p>
+                        <p class="hl-item__text3">
+                            <b>Cooking experience: </b>(1-5 guests) Your meal might include a variety of
+                        </p>
+                        <p class="hl-item__text3">
+                            <b>In-home meal: </b>(1-5 guests) Your meal might include a variety of typical street food dishes such as bun ca (turmeric-seasoned fish served with fresh vermicelli in broth, scattered with bunches of fresh herbs), xoi xeo (sticky rice with ground beans and flavorful fried shallots), fresh seasonal salads with green or ripe mango, pomelo, or avocado, and for dessert her delightful nep cam (purple sticky rice on yogurt). The menu will vary based on the season. <br>
+                            As an alternative to her street food style menu Lan Anh can 
+                            serve a more traditional family-style meal which would include a vegetable soup, a fish or meat main dish and steamed rice. Please let her know your preference when you make your reservation. 
+                        </p>
+                    </div>
+                </div>
+                    
+                <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                    <div class="px-4">
+                        <div class="d-flex flex-column pt-5 px-4" style="background-color: #f7f7f7;">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control rounded" placeholder="Select Date">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                                <img class="host-profile__date-icon" src="images/host-profile_date.svg">
+                            </div>
+                            <button type="submit" class="m-btn m-btn-green mt-3">BOOK NOW</button>
+                            <ul class="my-4 hl-item__text3">
+                                <li>100% Satisfaction guarantee or your money back</li>
+                                <li>Free cancellation up to 48 hours in advance</li>
+                                <li>This host accepts same day and next day bookings</li>
+                            </ul>
+                        </div>
+                        <img class="w-100" src="images/host-detail_map.png">
+                    </div>
+                </div>
+            </div>
+            <!--End What to expect-->
+
+            <!--Begin Table Pricing & Experience Timings-->
+            <div class="row">
+                <div class="col-12 col-lg-6 pt-5 pl-4">
+                    <label class="hl-item__text9">Pricing</label>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col">1 person</th>
+                              <th scope="col">2-4 person</th>
+                              <th scope="col">5+ person</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">In-Home Meal</th>
+                                <td>$26</td>
+                                <td>$22</td>
+                                <td>$18</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Cooking Experience
+                                    <p class="hl-item__text8-14">+ Meal</p>
+                                </th>
+                                <td>1 person</td>
+                                <td>2-4 person</td>
+                                <td>5+ person</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Market Tour
+                                </th>
+                                <td>$26</td>
+                                <td>$22</td>
+                                <td>$18</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Market Tour
+                                    <p class="hl-item__text8-14">+ Meal</p>
+                                </th>
+                                <td>1 person</td>
+                                <td>2-4 person</td>
+                                <td>5+ person</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Market Tour
+                                    <p class="hl-item__text8-14">+ Cooking Experience + Meal</p>
+                                </th>
+                                <td>$26</td>
+                                <td>$22</td>
+                                <td>$18</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="col-12 col-lg-6 pt-5 pl-4">
+                    <label class="hl-item__text9">Experience Timings</label>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col">Lunch</th>
+                              <th scope="col">Dinner</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">In-Home Meal</th>
+                                <td>11:00am-1:00pm</td>
+                                <td>6:00pm-8:00pm</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Cooking Experience
+                                    <p class="hl-item__text8-14">+ Meal</p>
+                                </th>
+                                <td>10:30am-1:30pm</td>
+                                <td>5:30pm-8:30pm</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Market Tour
+                                </th>
+                                <td>Not offered</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Market Tour
+                                    <p class="hl-item__text8-14">+ Meal</p>
+                                </th>
+                                <td>10:30am-1:30pm</td>
+                                <td>5:30pm-8:30pm</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    Market Tour
+                                    <p class="hl-item__text8-14">+ Cooking Experience + Meal</p>
+                                </th>
+                                <td>9:00am-1:00pm</td>
+                                <td>4:00pm-8:00pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--End Table Pricing & Experience Timings-->
+
+            <!--Begin Host Contact-->
+            <div class="mt-4">
+                <label class="hl-item__title7-24">Host Contact</label>
+                <p class="hl-item__text3">You can message your host directly once you've made your booking. Address and phone number will be provided upon booking confirmation.</p>
+            </div>
+            <!--End Host Contact-->
+        </section>
+
+        <!--Begin Nearby Hosts-->
+        <section class="position-relative pt-4" style="background-color: #f7f7f7;">
+            <div class="container pt-5">
+                <label class="hl-item__title2">Nearby Hosts</label>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mt-3">
+                        <div class="w-100" style="background: url(images/gaf1.png) center center / cover; height: 195px;"></div>
+                        <p class="hl-item__text3 mt-4">Authentic Vietnamese meal in Ho Chi Minh City</p>
+                        <p class="hl-item__text1">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-map-marker-alt fa-w-12 fa-3x mr-2" width="20" height="20" style="color: #4ED08D;"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" class=""></path></svg>
+                            HO CHI MINH CITY, VIETNAM
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-3">
+                        <div class="w-100" style="background: url(images/gaf1.png) center center / cover; height: 195px;"></div>
+                        <p class="hl-item__text3 mt-4">Authentic Vietnamese meal in Hai Phong City</p>
+                        <p class="hl-item__text1">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-map-marker-alt fa-w-12 fa-3x mr-2" width="20" height="20" style="color: #4ED08D;"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" class=""></path></svg>
+                            HAI PHONG, VIETNAM
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-3">
+                        <div class="w-100" style="background: url(images/gaf1.png) center center / cover; height: 195px;"></div>
+                        <p class="hl-item__text3 mt-4">Authentic Vietnamese meal in Ha Noi City</p>
+                        <p class="hl-item__text1">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-map-marker-alt fa-w-12 fa-3x mr-2" width="20" height="20" style="color: #4ED08D;"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" class=""></path></svg>
+                            NA HOI, VIETNAM
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-3">
+                        <div class="w-100" style="background: url(images/gaf1.png) center center / cover; height: 195px;"></div>
+                        <p class="hl-item__text3 mt-4">Authentic Vietnamese meal in Da Nang City</p>
+                        <p class="hl-item__text1">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-map-marker-alt fa-w-12 fa-3x mr-2" width="20" height="20" style="color: #4ED08D;"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z" class=""></path></svg>
+                            DA NANG, VIETNAM
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-absolute w-100" style="height: 85px; background-color: #f7f7f7; top: -85px; z-index: 2;"></div>
+        </section> 
+        <!--End Nearby Hosts-->
+    </main>
+    <!-- Begin footer -->
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 pr-0 mb-4 mb-md-0 footer__info">
+                    <h4 class="">COMPANY INFO</h4>
+                    <ul>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt=""> About</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Founders</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">How it works</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Safety</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Press</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Careers</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Testmonials</a>
+                        </li>
+                        <li>
+                             <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-4 mb-md-0">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 pr-0">
+                            <h4>HELP</h4>
+                            <ul>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Traveler FAQs</a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Host FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 pl-lg-0 pr-0">
+                            <h4>JOIN US</h4>
+                            <ul>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Become a Host</a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Become an Ambassador</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 pl-lg-4 mt-md-4 mt-lg-0 footer__subscribe">
+                    <form action="">
+                        <h4>SUBSCRIBE TO OUR NEWSLETTER!</h4>
+                        <input class="col-lg-11 col-md-10" type="email" placeholder="Enter Email Address">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <h5>&#169; Copyright information 2017, All Right Of Reserve</h5>
+    </div>
+</footer>
+<!-- End footer -->
+</div>
+<!-- // -->
+<!-- Begin modal login -->
+<div id="modalLogin" class="modal fade modal-lrf">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-center my-3 row">
+                <h5 class="modal-title ml-4 col-9">Sign in</h5>
+                <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </h5>
+            </div>
+            <div class="modal-body py-0">
+                <form class="p-sm-2">
+                    <div class="justify-content-between align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center w-100 mr-1 m-btn m-btn-white modal-lrf__fb">
+                            <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" width="16" height="16">
+                                <path fill="#FFFFFF" d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2v-2.05c0-2.164,1.212-3.684,3.766-3.684
+                                    l1.803,0.002v2.605h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"
+                                />
+                            </svg>
+                            <span class="ml-2">Sign in with Facebook</span>
+                        </a>
+                    </div>
+                    <p class="my-3 modal-lrf__text text-center">OR</p>
+                    <div class="form-group">
+                        <input class="form-control" type="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                    <div class="mb-3 text-right">
+                        <a class="modal-lrf__call" href="javascript:void(0)">Forgot your password?</a>
+                    </div>
+                    <div class="mb-0 text-center">
+                        <button type="submit" class="w-100 m-btn m-btn-green">Log in</button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center p-3 pb-4">
+                    <span class="modal-lrf__text">Need to create account?</span>
+                    <a id="callRegiterFromLogin" class="modal-lrf__call ml-1" href="javascript:void(0)">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal login -->
+<!-- // -->
+<!-- Begin modal login -->
+<div id="modalRegister" class="modal fade modal-lrf">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-center my-3 row">
+                <h5 class="modal-title ml-4 col-9">Sign up</h5>
+                <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </h5>
+            </div>
+            <div class="modal-body py-0">
+                <form class="p-sm-2">
+                    <div class="justify-content-between align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center w-100 mr-1 m-btn m-btn-white modal-lrf__fb">
+                            <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" width="16" height="16">
+                                <path fill="#FFFFFF" d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2v-2.05c0-2.164,1.212-3.684,3.766-3.684
+                                    l1.803,0.002v2.605h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"
+                                />
+                            </svg>
+                            <span class="ml-2">Sign up with Facebook</span>
+                        </a>
+                    </div>
+                    <p class="my-3 modal-lrf__text text-center">OR</p>
+                    <div class="form-group">
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control">
+                            <input type="hidden" name="">
+                            <div class="text">Mr.</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>Mr.</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>Mrs.</span>
+                                </div>
+                                <div class="item" data-value="2">
+                                    <span>Ms.</span>
+                                </div>
+                                <div class="item" data-value="3">
+                                    <span>Miss.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="firstname" placeholder="First name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="lastname" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Email (for all booking communication)">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                    <div class="form-group d-flex mt-4">
+                        <span class="hl-item__text1 mt-2 mr-md-3 mr-2">Birthday</span>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25 mr-2">
+                            <input type="hidden" name="">
+                            <div class="pl-0 default text">Month</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>03 AM</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>04 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25 mr-2">
+                            <input type="hidden" name="">
+                            <div class=" default text">Day</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>03 AM</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>04 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25">
+                            <input type="hidden" name="">
+                            <div class="default text">Year</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>00</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>01</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="row align-items-center filter-item">
+                        <div class="col-1 mr-2 mt-0">
+                            <input class="d-none filter-item__checkbox" type="checkbox">
+                            <div class="filter-item__status"></div>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <span class="filter-item__text1">By signing up you agree to Kuppa.net
+                            <a class="modal-lrf__call" href="javascript:void(0)">Terms of Use</a> &amp;
+                            <a class="modal-lrf__call" href="javascript:void(0)">Privacy Policy</a>
+                            </span>
+                        </div>
+                    </label>
+                    <div class="mb-0 text-center">
+                        <button type="submit" class="w-100 m-btn m-btn-green">Log in</button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center p-3 pb-4">
+                    <span class="modal-lrf__text">Already have an ccount?</span>
+                    <a id="callLoginFromRegiter" class="modal-lrf__call ml-1" href="javascript:void(0)">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal login -->
+<!-- // -->
+<!-- build:js js/vendor.min.js -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../node_modules/semantic-ui-transition/transition.min.js"></script>
+<script src="../node_modules/semantic-ui-dropdown/dropdown.min.js"></script>
+<script src="../node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<!-- endbuild -->
+<!-- build:js js/main.min.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

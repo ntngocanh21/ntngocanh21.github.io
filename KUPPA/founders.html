@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KUPPA</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- build:css css/vendor.min.css -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../node_modules/semantic-ui-transition/transition.min.css">
+    <link rel="stylesheet" href="../node_modules/semantic-ui-dropdown/dropdown.min.css">
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css">
+    <!-- endbuild -->
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+<div>
+    <!--Begin header-->
+<header class="header">
+    <div class="header-head">
+        <div class="container d-flex flex-wrap justify-content-end align-items-center header-log">
+            <a class="callModalLogin" href="javascript:void(0)">
+                <div class="header__list callModalLogin">
+                    <img class="mb-1 mr-1" src="images/ic-lock.svg" alt="">
+                    <span>LOGIN</span>
+                </div>
+            </a>
+            <a class="callModalRegister" href="javascript:void(0)">
+                <div class="header__list ">
+                    <img class="mb-1 mr-1" src="images/ic-user.svg" alt="">
+                    <span>SIGN UP</span>
+                </div>
+            </a>
+            <div class="header__list d-flex flex-wrap mb-3">
+                <div class="header__social">
+                    <a href=""><img src="images/ic-facebook.svg" alt=""></a>
+                </div>
+                <div class="header__social">
+                    <a href=""><img src="images/ic-twitter.svg" alt=""></a>
+                </div>
+                <div class="header__social">
+                    <a href=""><img src="images/ic-linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="check-hang">
+        <div class="d-none d-lg-block header-menu">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+                <a class="d-inline-block ml-0" href="#">
+                    <img class="header-menu__logo" src="images/ic-logo.png" alt="">
+                    <img class="header-menu__logo-scroll" src="images/ic-logo-scroll.png" alt="">
+                </a>
+                <div class="d-flex flex-wrap align-items-center">
+                    <nav class="d-flex flex-wrap">
+                        <a class="text-uppercase header-menu__link" href="become-a-host.html">BECOME A HOST</a>
+                        <a class="text-uppercase header-menu__link" href="how-it-works.html">HOW IT WORKS?</a>
+                        <a class="text-uppercase header-menu__link" href="">HELP</a>
+                        <a class="text-uppercase header-menu__link" href="">ABOUT US</a>
+                        <a class="text-uppercase header-menu__link" href="">FREE MEAT</a>
+                        <a class="text-uppercase header-menu__link" href="">GIVE A GIFT</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End header-->
+
+<!--Begin header mobile-->
+<div class="check-hang">
+<section class="d-lg-none header-mobile">
+    <div class="d-flex justify-content-between align-items-center w-100 pr-2 pl-3 bg-white">
+        <a class="navbar-brand" href="#">
+            <img class="header-mobile__logo" src="images/ic-logo.png" alt="">
+            <img class="header-menu__logo-scroll" src="images/ic-logo-scroll.png" alt="">
+        </a>
+        <button id="callHeaderMobileMenu" class="d-flex justify-content-center align-items-center border-0 bg-white">
+            <img src="images/ic-menu.svg" alt="">
+        </button>
+    </div>
+    <div id="headerMobileMenu" class="header-mobile-menu">
+        <nav class="ml-4 header-mobile-menu__wrap">
+            <p><a class="text-uppercase header-menu__link" href="">BECOME A HOST</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">HOW IT WORKS?</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">HELP</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">ABOUT US</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">FREE MEAT</a></p>
+            <p><a class="text-uppercase header-menu__link" href="">GIVE A GIFT</a></p>
+        </nav>
+    </div>
+</section>
+</div>
+<!--End  header mobile-->
+    <main class="m-height-screen">
+        <!--Begin banner-->
+        <section class="">
+            <div style="background:url(images/img_8466.jpg) center center no-repeat fixed; background-size: cover;">
+                <div class="hl-item__bg-effect250">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pt-5">
+                                <p class="hl-item__title1 my-5">Bringing world travelers the most authentic experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End banner-->
+
+        <section class="d-flex flex-column position-relative" style="background-color: #f7f7f7;">
+            <!--Begin menu-->
+            <ul class="nav justify-content-center py-3">
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1--active" href="#">Founders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1" href="#">How it works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1" href="#">Safety</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1" href="#">Press</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu__s-1" href="#">FAQ</a>
+                </li>
+            </ul>
+            <!--End menu-->
+
+            <!--Begin HIWs step 1-->
+            <div class="container d-flex align-items-center frame-step-founders">
+                <div class="row">
+                    <div class="col-6 d-flex align-items-stretch">
+                        <svg aria-hidden="true" data-prefix="fas" data-icon="quote-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-quote-left fa-w-16 fa-3x" width="180" height="40" style="color: #eeeeee;"><path fill="currentColor" d="M0 432V304C0 166.982 63.772 67.676 193.827 32.828 209.052 28.748 224 40.265 224 56.027v33.895c0 10.057-6.228 19.133-15.687 22.55C142.316 136.312 104 181.946 104 256h72c26.51 0 48 21.49 48 48v128c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48zm336 48h128c26.51 0 48-21.49 48-48V304c0-26.51-21.49-48-48-48h-72c0-74.054 38.316-119.688 104.313-143.528C505.772 109.055 512 99.979 512 89.922V56.027c0-15.762-14.948-27.279-30.173-23.199C351.772 67.676 288 166.982 288 304v128c0 26.51 21.49 48 48 48z" class=""></path></svg>
+                        <div class="d-flex flex-column pl-3 pt-3">
+                            <label class="hl-item__text3 mb-4">Vivamus lobortis, sem et euismod iaculis, lorem sapien consectetur orci, vitae tempor sapien metus vitae libero. Nunc augue urna, placerat et ornare sed, consectetur sed augue. Pellentesque sed dui nec orci cursus.</label>
+                            <div class="d-flex justify-content-start">
+                                <p class="hl-item__text7-18 mr-2">- Venenatis tellus</p>
+                                <svg aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" class="svg-inline--fa fa-facebook-f fa-w-9 fa-3x" width="35" height="20" style="color: #b8b8b8;"><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" class=""></path></svg>
+
+                                <svg aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-twitter fa-w-16 fa-3x" width="35" height="20" style="color: #b8b8b8;"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" class=""></path></svg>
+
+                                <svg aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-linkedin-in fa-w-14 fa-3x" width="35" height="20" style="color: #b8b8b8;"><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z" class=""></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/founders-01.png" style="width: 90%; height: 300px;">
+                    </div>
+                </div>
+            </div>
+            <!--End HIWs step 1-->
+
+            <div class="position-absolute w-100" style="background-color: white; height: 230px; top: 72px;"></div>
+
+            <!--Begin HIWs step 2-->
+            <div class="container mt-4 mb-5">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="hl-item__title8-36">Founders' Story</p>
+                        <p class="hl-item__text3">Etiam nibh augue, facilisis sed ligula in, pharetra eleifend ex. Nunc varius, enim in euismod fermentum, purus ex porta mauris, vitae eleifend est augue nec sapien. Vestibulum aliquet risus ac erat pulvinar tempus. Nam blandit scelerisque magna, quis rhoncus odio elementum non. Sed pretium augue eget nunc pharetra tincidunt. In enim est, sagittis eu nisl sed, cursus ullamcorper sapien. Proin ornare justo sapien. Donec ac quam rhoncus, elementum nisl eget, sodales arcu. Fusce enim nibh, venenatis et consectetur non, condimentum et massa. Morbi rhoncus dictum mauris et semper. Maecenas pellentesque rhoncus consectetur. Pellentesque lacinia purus eu finibus convallis.</p>
+                    </div>
+                    <div class="col-6 d-flex flex-column mt-auto mb-auto">
+                        <p class="hl-item__text3">Aliquam dictum varius eros sed sollicitudin. Fusce bibendum bibendum cursus. Proin mattis congue nisi, eu tempor odio. Aenean dignissim urna mauris, vel eleifend purus tincidunt eget. Proin scelerisque eget nulla et scelerisque. Nulla et dui quis neque mattis rutrum. Pellentesque suscipit odio ac lacus rutrum semper sit amet tempus justo. Duis maximus, ipsum vel viverra cursus, lectus turpis pulvinar justo, a laoreet odio velit vel massa. Suspendisse mi enim, mattis sit amet sapien quis, suscipit condimentum elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!--End HIWs step 2-->
+        </section>
+
+        <!--Begin Infor traver feedback-->
+        <div class="container">
+            <div class="text-center py-5">
+                <div class="mx-auto" style="background: url(images/founders-02.png) center center / cover; width: 105px; height: 105px;"></div>
+                <p class="hl-item__text7-18 mt-4">Tempus Justo</p>
+                <div>
+                    <svg aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" class="svg-inline--fa fa-facebook-f fa-w-9 fa-3x" width="35" height="20" style="color: #b8b8b8;"><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" class=""></path></svg>
+
+                    <svg aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-twitter fa-w-16 fa-3x" width="35" height="20" style="color: #b8b8b8;"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" class=""></path></svg>
+
+                    <svg aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-linkedin-in fa-w-14 fa-3x" width="35" height="20" style="color: #b8b8b8;"><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z" class=""></path></svg>
+                </div>
+                <p class="hl-item__title7-24 mt-4">Fusce enim nibh, venenatis et consectetur non, condimentum et massa. Morbi rhoncus dictum mauris et semper. Maecenas pellentesque rhoncus consectetur. Pellentesque lacinia purus eu finibus convallis. Pellentesque hendrerit ac elit et commodo. Aenean quis est ut felis vehicula commodo rhoncus et massa.</p>
+            </div>
+        </div>
+        <!--End Infor traver feedback-->
+
+        <!--Begin Infor traver feedback-->
+        <div style="background-color: #f7f7f7;">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-4 text-center pr-4">
+                        <img src="images/three-part.png" alt="">
+                        <p class="hl-item__title9-25 mt-3">Heading text goes here</p>
+                        <p class="hl-item__text3">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                    </div>
+                    <div class="col-4 text-center pr-4">
+                        <img src="images/three-part.png" alt="">
+                        <p class="hl-item__title9-25 mt-3">Heading text goes here</p>
+                        <p class="hl-item__text3">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                    </div>
+                    <div class="col-4 text-center pr-4">
+                        <img src="images/three-part.png" alt="">
+                        <p class="hl-item__title9-25 mt-3">Heading text goes here</p>
+                        <p class="hl-item__text3">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium, totam rem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--End Infor traver feedback-->
+    </main>
+    <!-- Begin footer -->
+<footer class="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 pr-0 mb-4 mb-md-0 footer__info">
+                    <h4 class="">COMPANY INFO</h4>
+                    <ul>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt=""> About</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Founders</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">How it works</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Safety</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Press</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Careers</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Testmonials</a>
+                        </li>
+                        <li>
+                             <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mb-4 mb-md-0">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 pr-0">
+                            <h4>HELP</h4>
+                            <ul>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Traveler FAQs</a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Host FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 pl-lg-0 pr-0">
+                            <h4>JOIN US</h4>
+                            <ul>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Become a Host</a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="mb-1 mr-1" src="images/ic_right-arrow-angle.svg" alt="">Become an Ambassador</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 pl-lg-4 mt-md-4 mt-lg-0 footer__subscribe">
+                    <form action="">
+                        <h4>SUBSCRIBE TO OUR NEWSLETTER!</h4>
+                        <input class="col-lg-11 col-md-10" type="email" placeholder="Enter Email Address">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__bottom">
+        <h5>&#169; Copyright information 2017, All Right Of Reserve</h5>
+    </div>
+</footer>
+<!-- End footer -->
+</div>
+
+<!-- // -->
+<!-- Begin modal login -->
+<div id="modalLogin" class="modal fade modal-lrf">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-center my-3 row">
+                <h5 class="modal-title ml-4 col-9">Sign in</h5>
+                <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </h5>
+            </div>
+            <div class="modal-body py-0">
+                <form class="p-sm-2">
+                    <div class="justify-content-between align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center w-100 mr-1 m-btn m-btn-white modal-lrf__fb">
+                            <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" width="16" height="16">
+                                <path fill="#FFFFFF" d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2v-2.05c0-2.164,1.212-3.684,3.766-3.684
+                                    l1.803,0.002v2.605h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"
+                                />
+                            </svg>
+                            <span class="ml-2">Sign in with Facebook</span>
+                        </a>
+                    </div>
+                    <p class="my-3 modal-lrf__text text-center">OR</p>
+                    <div class="form-group">
+                        <input class="form-control" type="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                    <div class="mb-3 text-right">
+                        <a class="modal-lrf__call" href="javascript:void(0)">Forgot your password?</a>
+                    </div>
+                    <div class="mb-0 text-center">
+                        <button type="submit" class="w-100 m-btn m-btn-green">Log in</button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center p-3 pb-4">
+                    <span class="modal-lrf__text">Need to create account?</span>
+                    <a id="callRegiterFromLogin" class="modal-lrf__call ml-1" href="javascript:void(0)">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal login -->
+<!-- // -->
+<!-- Begin modal login -->
+<div id="modalRegister" class="modal fade modal-lrf">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-center my-3 row">
+                <h5 class="modal-title ml-4 col-9">Sign up</h5>
+                <button type="button" class="close col-1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </h5>
+            </div>
+            <div class="modal-body py-0">
+                <form class="p-sm-2">
+                    <div class="justify-content-between align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center w-100 mr-1 m-btn m-btn-white modal-lrf__fb">
+                            <svg version="1.1" id="Facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve" width="16" height="16">
+                                <path fill="#FFFFFF" d="M17,1H3C1.9,1,1,1.9,1,3v14c0,1.101,0.9,2,2,2h7v-7H8V9.525h2v-2.05c0-2.164,1.212-3.684,3.766-3.684
+                                    l1.803,0.002v2.605h-1.197C13.378,6.398,13,7.144,13,7.836v1.69h2.568L15,12h-2v7h4c1.1,0,2-0.899,2-2V3C19,1.9,18.1,1,17,1z"
+                                />
+                            </svg>
+                            <span class="ml-2">Sign up with Facebook</span>
+                        </a>
+                    </div>
+                    <p class="my-3 modal-lrf__text text-center">OR</p>
+                    <div class="form-group">
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control">
+                            <input type="hidden" name="">
+                            <div class="text">Mr.</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>Mr.</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>Mrs.</span>
+                                </div>
+                                <div class="item" data-value="2">
+                                    <span>Ms.</span>
+                                </div>
+                                <div class="item" data-value="3">
+                                    <span>Miss.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="firstname" placeholder="First name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="lastname" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Email (for all booking communication)">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Password">
+                    </div>
+                    <div class="form-group d-flex mt-4">
+                        <span class="hl-item__text1 mt-2 mr-md-3 mr-2">Birthday</span>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25 mr-2">
+                            <input type="hidden" name="">
+                            <div class="pl-0 default text">Month</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>03 AM</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>04 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25 mr-2">
+                            <input type="hidden" name="">
+                            <div class=" default text">Day</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>03 AM</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>04 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui dropdown d-flex justify-content-between align-items-center pr-2 form-control w-25">
+                            <input type="hidden" name="">
+                            <div class="default text">Year</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" width="20" height="20">
+                                <path fill="#ced4da" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path>
+                            </svg>
+                            <div class="menu">
+                                <div class="item" data-value="0">
+                                    <span>00</span>
+                                </div>
+                                <div class="item" data-value="1">
+                                    <span>01</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="row align-items-center filter-item">
+                        <div class="col-1 mr-2 mt-0">
+                            <input class="d-none filter-item__checkbox" type="checkbox">
+                            <div class="filter-item__status"></div>
+                        </div>
+                        <div class="col-10 mb-2">
+                            <span class="filter-item__text1">By signing up you agree to Kuppa.net
+                            <a class="modal-lrf__call" href="javascript:void(0)">Terms of Use</a> &amp;
+                            <a class="modal-lrf__call" href="javascript:void(0)">Privacy Policy</a>
+                            </span>
+                        </div>
+                    </label>
+                    <div class="mb-0 text-center">
+                        <button type="submit" class="w-100 m-btn m-btn-green">Log in</button>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center p-3 pb-4">
+                    <span class="modal-lrf__text">Already have an ccount?</span>
+                    <a id="callLoginFromRegiter" class="modal-lrf__call ml-1" href="javascript:void(0)">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal login -->
+<!-- // -->
+<!-- build:js js/vendor.min.js -->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../node_modules/semantic-ui-transition/transition.min.js"></script>
+<script src="../node_modules/semantic-ui-dropdown/dropdown.min.js"></script>
+<script src="../node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<!-- endbuild -->
+<!-- build:js js/main.min.js -->
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+<style>
+    /*Bootstrap*/
+    .d-flex {
+        display: flex!important;
+    }
+    .align-items-center {
+        -webkit-box-align: center!important;
+        -ms-flex-align: center!important;
+        align-items: center!important;
+    }
+    .ml-auto {
+        margin-left: auto!important;
+    }
+    .m-0 {
+        margin: 0 !important;
+    }
+    .mb-0 {
+        margin-bottom: 0 !important;
+    }
+    .mr-1 {
+        margin-right: 0.25rem !important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem !important;
+    }
+    .mr-3 {
+        margin-right: 1rem !important;
+    }
+    .mt-4 {
+        margin-top: 1.5rem !important;
+    }
+    .mt-5 {
+        margin-top: 3rem !important;
+    }
+    .p-4 {
+        padding: 1.5rem !important;
+    }
+    .py-3 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .text-uppercase {
+        text-transform: uppercase!important;
+    }
+    .font-weight-bold {
+        font-weight: 700!important;
+    }
+    /*End Bootstrap*/
+
+    /*Font Family*/
+    @font-face {
+        font-family: 'Roboto-Medium';
+        src: url('fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Medium.woff') format('woff'), url('fonts/Roboto-Medium.ttf') format('truetype'), url('fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Roboto-Black';
+        src: url('fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Black.woff') format('woff'), url('fonts/Roboto-Black.ttf') format('truetype'), url('fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Roboto-Bold';
+        src: url('fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Bold.woff') format('woff'), url('fonts/Roboto-Bold.ttf') format('truetype'), url('fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Roboto-Regular';
+        src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf') format('truetype'), url('fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /*End Font Family*/
+    body {
+        background-color: #fafafa;
+    }
+    .email-welcome__framebox {
+        width: 640px;
+        margin: auto;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.07);
+        background: #fff;
+        margin-top: 3px;
+    }
+    .email-welcome__header-logo {
+        width: 150px;
+        height: 54px;
+        margin: 1rem 0 1rem 1.5rem;
+    }
+    .email-welcome__header-support {
+        margin-left: auto;
+        margin-right: 1.5rem;
+        display: flex;
+        -webkit-box-align: center!important;
+        -ms-flex-align: center!important;
+        align-items: center!important;
+    }
+    .email-welcome__header-support img {
+        width: 42px; 
+        height: 36px;
+        margin-right: 0.5rem;
+    }
+    .email-welcome__footer-info {
+        display: flex;
+        -webkit-box-orient: horizontal!important;
+        -webkit-box-direction: normal!important;
+        -ms-flex-direction: row!important;
+        flex-direction: row!important;
+    }
+
+    .email-welcome__text1 {
+        font-family: Roboto-Medium;
+        font-size: 12px;
+        color: #888888;
+        text-align: left;
+        line-height: 18px;
+    }
+    .email-welcome__text2 {
+        font-family: Roboto-Black;
+        font-size: 14px;
+        color: #4A4A4A;
+        text-align: left;
+        margin: 0;
+    }
+    .email-welcome__text3 {
+        font-family: Roboto-Bold;
+        font-size: 20px;
+        color: #2C2C2C;
+        text-align: left;
+        margin: 0;
+    }
+    .email-welcome__text4 {
+        font-family: Roboto-Regular;
+        font-size: 14px;
+        color: #2C2C2C;
+        text-align: left;
+        line-height: 24px;
+    }
+    .email-welcome__text4 a {
+        text-decoration: none;
+        color: #2C2C2C;
+    }
+    .email-confirm-booking__text1 {
+        font-family: Roboto-Bold;
+        font-size: 16px;
+        color: #2d94f4;
+        text-align: left;
+        line-height: 19px;
+    }
+    .email-confirm-booking__text2 {
+        font-family: Roboto-Medium;
+        font-size: 13px;
+        color: #2C2C2C;
+        text-align: left;
+        line-height: 22px;
+    }
+    .email-confirm-booking__text3 {
+        font-family: Roboto-Bold;
+        font-size: 16px;
+        color: #2C2C2C;
+        text-align: left;
+        line-height: 19px;
+    }
+    .email-confirm-booking__text4 {
+        font-family: Roboto-Bold;
+        font-size: 13px;
+        color: #e61f26;
+        text-align: left;
+        line-height: 22px;
+    }
+    .email-confirm-booking__text5 {
+        font-family: Roboto-Regular;
+        font-size: 15px;
+        color: #2C2C2C;
+        line-height: 26px;
+    }
+    .email-confirm-booking__text6 {
+        font-family: Roboto-Medium;
+        font-size: 20px;
+        color: #4A4A4A;
+        align-self: center!important;
+    }
+    .email-confirm-booking__text7 {
+        font-family: Roboto-Bold;
+        font-size: 30px;
+        color: #E61F26;
+        line-height: 35px;
+    }
+    .email-confirm-booking__text8 {
+        font-family: Roboto-Regular;
+        font-size: 30px;
+        color: #000000;
+    }
+
+    table, th, td {
+        border: 1px solid #E2E2E2;
+        border-collapse: collapse;
+    }
+    th {
+        background: #FAFAFA;
+    }
+    td {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    th, td {
+        padding-left: 0.5rem;
+    }
+</style>
+<div class="email-welcome">
+    <!-- Begin Confirm booking Header -->
+    <div class="email-welcome__framebox mt-5">
+        <div class="d-flex">
+            <img class="email-welcome__header-logo" src="images/ic-logo.png" alt="">
+            <div class="email-welcome__header-support">
+                <img src="images/guide-ic-support.svg">
+                <div>
+                    <label class="email-welcome__text1">TỔNG ĐÀI HỖ TRỢ</label>
+                    <p class="email-welcome__text2">(084) 3822 8898</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Confirm booking Header -->
+
+    <!-- Begin Confirm booking Content -->
+    <div class="email-welcome__framebox">
+        <div class="p-4">
+            <p class="email-welcome__text3 text-uppercase">Xác nhận đơn hàng đặt tour thành công</p>
+            <p class="email-welcome__text4">
+                Chào Nguyễn Văn An,
+                <br>
+                Cảm ơn Quý khách đã lựa chọn dịch vụ của FVG Travel cho chuyến đi của mình!
+                <br>
+                Vui lòng tải về và mang theo voucher đặt phòng đính kèm trong email này khi sử dụng dịch vụ.</p>
+            <b class="email-welcome__text4">Mã đơn hàng: <span class="email-confirm-booking__text1">436518988</span></b>
+            <div class="mt-4">
+                <table style="width:100%">
+                    <tr>
+                        <th class="email-confirm-booking__text3 py-3">Thông tin đặt phòng</th>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Mã khách sạn: </span> DNG20</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Tên khách sạn: </span> Da Nang Riverside Hotel</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Địa chỉ: </span> A30, Trần Hưng Đạo, Quận Sơn Trà, Phước Mỹ, Đà Nẵng, Việt Nam</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Tên phòng đặt: </span> Phòng Superior</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Sức chứa: </span> 2 người</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text4"><span class="email-confirm-booking__text2 font-weight-bold">Ngày nhận phòng: </span> 22/02/2018</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text4"><span class="email-confirm-booking__text2 font-weight-bold">Ngày trả phòng: </span> 25/02/2018</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Số ngày đặt: </span> 2 ngày</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mt-4">
+                <table style="width:100%">
+                    <tr>
+                        <th class="email-confirm-booking__text3 py-3">Thông tin liên lạc</th>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Họ tên: </span> Nguyễn Văn An</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Tên khách sạn: </span> Da Nang Riverside Hotel</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Email: </span> annv@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Di động: </span>0905222222</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Điện thoại: </span>0983111111</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Địa chỉ: </span>122 Nguyễn Hoàng, Đà Nẵng</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Số khách: </span>1 (Người lớn: 1  Trẻ em: 0  Trẻ nhỏ: 0  Em bé: 0)</td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2"><span class="font-weight-bold">Ghi chú: </span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mt-4">
+                <table style="width:100%">
+                    <tr>
+                        <th class="email-confirm-booking__text3 py-3">Thông tin thanh toán</th>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2 d-flex">
+                            <span class="font-weight-bold">Chi phí đặt phòng Superior trong 3 ngày: </span> 
+                            <span class="ml-auto mr-2 email-confirm-booking__text5">1,050,000 <u>đ</u></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2 d-flex">
+                            <span class="font-weight-bold">Phí thuê xe 4 chỗ đi hang Sửng Sốt: </span> 
+                            <span class="ml-auto mr-2 email-confirm-booking__text5">300,000 <u>đ</u></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="email-confirm-booking__text2 d-flex">
+                            <span class="email-confirm-booking__text6">Tổng chi phí: </span> 
+                            <span class="ml-auto mr-2 email-confirm-booking__text7">1,350,000 <span class="email-confirm-booking__text8"><u>đ</u></span></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mt-4">
+                <p class="email-welcome__text4 mb-0">
+                    <b>Yêu cầu đặc biệt: </b><br>
+                    - Mọi yêu cầu sẽ được đáp ứng tùy thuộc vào điều kiện của khách sạn khi nhận phòng.
+                    <b>Hình thức thanh toán: </b><br>
+                    - Chuyển khoản/ Internet banking<br>
+                    <br>
+                    <b>Chính sách huỷ phòng: </b><br>
+                    <b>Phòng Loại 4: </b><br>
+                    - Đối với các đơn phòng nhỏ hơn 5 phòng.<br>
+                    - Không tính phí hủy nếu khách hàng báo trước 07 ngày (tính từ ngày đến).<br>
+                    - Tính phí 50% tổng số tiền đặt phòng nếu khách hàng báo trước 03-07 ngày (tính từ ngày đến).<br>
+                    - Tính phí 100% tổng số tiền đặt phòng nếu khách hàng hủy đặt phòng dưới 03 ngày (tính từ ngày đến).<br>
+                    - Đối với đơn phòng từ 5 phòng trở lên<br>
+                    - Không tính phí hủy nếu khách hàng báo trước 15 ngày (tính từ ngày đến).<br>
+                    - Tính phí 50% tổng số tiền đặt phòng nếu khách hàng báo trước 07-15 ngày (từ ngày đến).<br>
+                    - Tính phí 100% tổng số tiền đặt phòng nếu khách hàng hủy đặt phòng dưới 07 ngày.<br>
+                    <br>
+                    <b>Điều kiện xuất hoá đơn: </b><br>
+                    - Quý khách hàng cần cung cấp thông tin và địa chỉ xuất hóa đơn trước hoặc ngay khi thanh toán đơn phòng.<br>
+                    - FVG Travel sẽ xuất hóa đơn bằng với giá trị của đơn phòng trước chiết khấu, khuyến mãi.<br>
+                    - FVG Travel sẽ không thể xuất hóa đơn nếu Quý khách gửi thông tin chậm hơn thời gian trên.<br>
+                    - FVG Travel sẽ gửi hóa đơn đến Quý khách trong vòng một tuần sau ngày trả phòng<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Begin Confirm booking Content -->
+
+    <!-- Begin Confirm booking Footer -->
+    <div class="email-welcome__framebox">
+        <div class="email-welcome__footer p-4">
+            <div class="email-welcome__footer-info">
+                <p class="email-welcome__text4 m-0 mr-3">Cập nhật những tin tức mới nhất về FVG Travel tại:</p>
+                <div class="d-flex align-items-center email-welcome__text4">
+                    <a class="d-flex align-items-center mr-3" href=""><img class="mr-1" src="images/ic-fb.svg"> Facebook</a>
+                    <a class="d-flex align-items-center mr-3" href=""><img class="mr-1" src="images/ic-tw.svg"> Twitter</a>
+                    <a class="d-flex align-items-center" href=""><img class="mr-1" src="images/ic-gg.svg"> Google</a>
+                </div>
+            </div>
+            <p class="email-welcome__text4 mb-0">
+                <b>CÔNG TY FVG TRAVEL</b>
+                <br>
+                Giấy phép kinh doanh: 0401632246 - Cấp ngày: 14/11/2014
+                <br>
+                VPGD: 122 Hoàng Diệu, Đà Nẵng, Việt Nam — Tổng đài hỗ trợ: (084) 3822 8898
+            </p>
+        </div>
+    </div>
+    <!-- Begin Confirm booking Footer -->
+</div>
